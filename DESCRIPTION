@@ -1,0 +1,9 @@
+Package: panlem_helpers
+Type: Package
+Title: Panel Lémanique - Helpers
+Version: 0.1.0
+Author: Alexander Lepper
+Maintainer: Alexander Lepper <alexander.lepper@epfl.ch>
+Description: Package contenant les fonctions helpers facilitant l'analyse des données du Panel Lémanique.
+Encoding: UTF-8
+LazyData: true
