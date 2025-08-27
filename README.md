@@ -1,6 +1,6 @@
 # panlemhelpers
 
-Package R permettant une meilleure visualisation des données du Panel Lémanique et facilitant ainsi leur analyse
+Package R permettant une meilleure visualisation des données du Panel Lémanique stockées sur OPAL et facilitant ainsi leur analyse.
 
 ## Installation
 
@@ -16,7 +16,6 @@ remotes::install_github("EPFL-LASUR/panlemhelpers")
 ## Exemple
 
 ``` r
-wave1_data <- opal.table_get(o, "Panel Lémanique", "wave1")
 get_participants_wave1(wave1_data)
 get_documentation_wave1(wave1_data)
 ```
