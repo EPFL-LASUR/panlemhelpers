@@ -11,7 +11,8 @@ source(here::here("R/utils.R"))
 # definition
 participants_colnames <- c(
   "participant_code", "pays", "group", "gp_age_source", "numero_insee", "numero_ofs", "weight",
-  "titre_source", "cp_source", "localite_source"
+  "titre_source", "cp_source", "localite_source", "titre_actuel", "cp_actuel", "localite_actuel", "code_raison_contact_1_v2",
+  "code_raison_contact_2_v2", "code_raison_contact_3_v2", "particip_v2"
 )
 
 # Columns to be included in the survey_metadata (also named survey_completion) table
@@ -22,9 +23,7 @@ survey_metadata_colnames <- c(
 # These are additional column names that are currently simply discarded for the MVP
 # TODO: figure out with Panel team what to do with these additional variables.
 extra_colnames <- c(
-  "titre_actuel", "cp_actuel", "localite_actuel", "code_raison_contact_1_v2",
-  "code_raison_contact_2_v2", "code_raison_contact_3_v2", "particip_avant_changements",
-  "flag_troll", "particip_v2", "suppression_suite_v2", "flag_chgmt_pays", "mobile_ordi",
+  "particip_avant_changements", "flag_troll", "suppression_suite_v2", "flag_chgmt_pays", "mobile_ordi",
   "avant_chgmt_vet", "flag_chgmt_localite_v2"
 )
 
